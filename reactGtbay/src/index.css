@@ -1,0 +1,123 @@
+body {
+    background-color: #FFCC00;
+    padding: 20px;
+    margin: 0;
+}
+h1, h2, p, ul, li {
+    font-family: sans-serif;
+}
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+ul.header {
+    background-color: #111;
+    padding: 0;
+}
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+.content {
+    background-color: aliceblue;
+    padding: 20px;
+}
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+.content li {
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: #0099FF;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+table#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+input[type=submit]#submit1, input[type=reset]#submit1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input:focus {
+    background-color: lightblue;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.full input[type=text], .full input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.full label {
+    width: 100%;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+.itemDetail {
+    font-size: 16px;
+    margin: 12px 12px 12px 12px;
+}
+
+input[type=submit]#submit2 {
+    margin: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+div#rating {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 2px solid black;
+}
+
+.sellItem {
+    margin: 12px 12px 12px 12px;
+}
+
+.sellItem2 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+div#sellItem {
+    margin: 6px 12px 6px 12px;
+}
